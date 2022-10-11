@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="cabezal" class="clearfix">
+          <img id="logo" src="https://develotion.com/p1/2022_03/icon.png" alt="logo">
+          <ul id="navPrincipal">
+            <li>
+              <li id="btnMostrarLogin"class="deslogueado">
+                <a>Login</a>
+              </li>
+              
+            </li>
+            <li>
+              <li id="btnMostrarRegistro"class="deslogueado" >
+                <a>Registrarse</a>
+              </li>
+              
+            </li>
+            <li id="btnMostrarLogout" class="logueado logueadoLocal">
+              <a>Logout</a>
+            </li>
+      
+          </ul>
+          
+        </div><h1 class="deslogueado">Bienvenido</h1>
+        <!-- ADMIN -->
+        
+        <!-- LISTA DE LOCALES -->
+        <div id="listaLocales" class="logueadoLocal">
+
+          <input id="btnVerLocales" type="button" value="Ver Locales">
+         <div id="tablaLocales"></div>
+         </div>
+         <!-- BUSCADOR -->
+        <div id="buscador" class="logueadoLocal">
+          <input type="text" id="txtBuscarLocal" placeholder="Buscar reservas">
+          
+        </div>
+  <!-- LISTA DE RESERVAS -->
+  <div id="listaReservas" class="logueadoLocal">
+
+    <input id="btnVerReservas" type="button" value="Ver Todas las Reservas">
+   <div id="tablaReservas"></div>
+   </div>
+
+        <div id="contenido">
+  <!-- REGISTRO -->
+<div class="deslogueado" id="divRegistro">
+    <h1>Registrarse</h1><br>
+    <input type="text" id="txtNombrePersona" placeholder="Ingrese su Nombre"><br>
+    <input type="text" id="txtUsernamePersona" placeholder="Ingrese Nombre de usuario"><br>
+    <input type="text" id="txtContraseñaPersona" placeholder="Ingrese su contraseña"><br>
+    <button id="btnRegistrar">Registrar</button><br>
+    <p id="pRegistro"></p>
+    <!--FIN REGISTRO -->
+    </div>
+<!-- LOGIN -->
+    <div class="deslogueado"  id="divLogin">
+      <h1>Login</h1>
+      <label>Usuario:</label><br>
+      <input type="text" id="txtLoginUsername"><br>
+      <label>Contraseña:</label><br>
+      <input type="password" id="txtLoginContraseña"><br>
+      <input type="button" id="btnLogin" value="Login"><br>
+    <p id="pLogin"></p>
+  </div>
+  <!-- FIN LOGIN -->
+  
+          <div id="muro" class="interior logueado">
+              
+             
+          </div>
+          </div>
+          <div id="pie">
+            <a href="https://www.ort.edu.uy">Footer</a>
+          </div><!-- FIN PIE -->
+        </div>
+   
+
+
+
+
+
+
+    <script src="js/estructuras.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
