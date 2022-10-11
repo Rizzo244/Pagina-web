@@ -141,6 +141,7 @@ function tdLogin() {
 
     let v = existeUsuarioYContra(usernameP, contraP);
 
+    
     if (v != null) {
         usuarioLogueado = v;
         if (v.Rol == "persona") {
